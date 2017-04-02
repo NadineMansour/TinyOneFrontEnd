@@ -13,6 +13,10 @@
 	float: left;
 }
 
+.navigation-bar-logo span{
+	margin-left: 15px;
+}
+
 .navigation-bar-logo img{
 	width: 30px;
 	height: 30px;
@@ -34,6 +38,18 @@
 
 .navigation-bar li a:hover{
 	color: grey;
+}
+
+@media screen and (max-width: 700px) {
+	.navigation-bar-logo, .navigation-bar ul{
+		float: none;
+		text-align: center;
+	}
+
+	/*.navigation-bar ul{
+		float: none;
+		text-align: center;
+	}*/
 }
 
 .clr{
