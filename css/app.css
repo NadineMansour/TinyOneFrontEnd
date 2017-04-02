@@ -7,10 +7,11 @@
 	position: relative;
 }
 
+.fullHight{
+	height: 100vh;
+}
+
 .banner-img img{
-	/*position: absolute;
-	top: 50%;
-	transform: translateY(-50%);*/
 	float: right;
 }
 
@@ -90,7 +91,6 @@
 
 	.banner-img img{
 		float: none;
-		text-align: center;
 	}
 	
 }
